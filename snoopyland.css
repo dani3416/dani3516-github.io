@@ -1,0 +1,529 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+h1{font: size 3.5em;}
+h2{font-size: 2.0em;}
+h3{font: size 2.5em;}
+p{font-size: 1em;}
+ul{list-style: none;}
+li{font-size: 1.1em;}
+
+.info-extra {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #d7d3df;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(28, 27, 41, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.048);
+    color: beige;
+    background-color:rgb(84, 87, 139)
+}
+button:hover{
+        background-color:rgb(58, 60, 99)
+
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.color-acento{color:rgb(84, 87, 139)}
+
+header{
+    background-color: #aca0c9;
+    
+}
+
+header .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: rgb(84, 87, 139);
+    font-size: 1.6em;
+    justify-content: right;
+}
+
+
+.logoicon{
+    justify-content: first baseline;
+    margin-left: left;
+    align-items: left;
+    height: 36px;
+    width: auto;
+    padding: -10px 10px
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(84, 87, 139);
+}
+
+#Snoopy h1{
+    font-size: 3em;
+    padding: 0px 20px;
+}
+
+#Snoopy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Camp_Snoopy_Photo_011301.jpg.photo_modal_show_home_large.jpg");
+    background-size: cover;
+    background-position:center center;
+}
+
+#Snoopy h1{
+    color:white
+}
+
+#Snoopy button{
+    font-size: 1.75em
+}
+
+#Somos-Snoopyland{
+    background-color: #c3bada;
+}
+
+#Somos-Snoopyland .container{
+    text-align: center;
+    padding: 150px 50px;
+    padding-top: 100px;
+}
+
+
+#seccion-peanuts{
+    background-color: rgb(22, 19, 32);
+    color: white;
+    text-align: center;
+}
+
+#seccion-peanuts .container{
+    padding: 100px 12px;
+}
+
+#seccion-peanuts h2{
+    margin-top: 0;
+    font-size: 3em;
+}
+
+#seccion-peanuts p{
+    display: none;
+}
+
+#seccion-peanuts .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+     background-image: linear-gradient(
+        0deg,
+        rgba(8, 8, 29, 0.671),
+        rgba(8, 8, 29, 0.671)
+    )
+    ,url("sn-color2.jpg");
+    background-position: center center;
+
+}
+
+.carta:nth-child(2){
+  background-image: linear-gradient(
+        0deg,
+        rgba(8, 8, 29, 0.671),
+        rgba(8, 8, 29, 0.671)
+    )
+    ,url("photo-output_9.webp");
+
+}
+
+.carta:nth-child(3){
+  background-image: linear-gradient(
+        0deg,
+       rgba(8, 8, 29, 0.671),
+       rgba(8, 8, 29, 0.671)
+    )
+    ,url("cb-color.avif");
+
+}
+
+.carta:nth-child(4){
+  background-image: linear-gradient(
+        0deg,
+       rgba(8, 8, 29, 0.671),
+       rgba(8, 8, 29, 0.671)
+    )
+    ,url("lu-color.avif");
+
+}
+
+.carta:nth-child(5){
+  background-image: linear-gradient(
+        0deg,
+       rgba(8, 8, 29, 0.671),
+       rgba(8, 8, 29, 0.671)
+    )
+    ,url("li-color.avif");
+
+}
+
+.carta:nth-child(6){
+  background-image: linear-gradient(
+        0deg,
+        rgba(8, 8, 29, 0.671),
+        rgba(8, 8, 29, 0.671)
+    )
+    ,url("sa-color.avif");
+
+}
+
+.carta:nth-child(7){
+  background-image: linear-gradient(
+        0deg,
+        rgba(8, 8, 29, 0.671),
+        rgba(8, 8, 29, 0.671)
+    )
+    ,url("pp-color.jpg");
+
+}
+
+.carta:nth-child(8){
+  background-image: linear-gradient(
+        0deg,
+       rgba(8, 8, 29, 0.671),
+       rgba(8, 8, 29, 0.671)
+    )
+    ,url("ma-color.avif");
+
+}
+
+.carta:nth-child(9){
+  background-image: linear-gradient(
+        0deg,
+        rgba(8, 8, 29, 0.671),
+        rgba(8, 8, 29, 0.671)
+    )
+    ,url("fk-color.avif");
+
+}
+
+.carta:nth-child(10){
+  background-image: linear-gradient(
+        0deg,
+        rgba(8, 8, 29, 0.671),
+        rgba(8, 8, 29, 0.671)
+    )
+    ,url("ot-color.avif");
+
+}
+
+.carta:nth-child(11){
+  background-image: linear-gradient(
+        0deg,
+       rgba(8, 8, 29, 0.671),
+       rgba(8, 8, 29, 0.671)
+    )
+    ,url("sc-color_1.avif");
+
+}
+
+.carta:nth-child(12){
+  background-image: linear-gradient(
+        0deg,
+       rgba(8, 8, 29, 0.671),
+       rgba(8, 8, 29, 0.671)
+    )
+    ,url("Rerun\ -\ bw.avif");
+
+}
+
+#sabiasque{
+    background-color: #c3bada;
+}
+
+#sabiasque .container{
+    text-align: center;
+    padding: 200px 20px;
+    padding-top: 100px;
+}
+
+#sabiasque li{
+    margin: 15px 12px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 25px;
+}
+
+#tododepeanuts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(22, 19, 32);
+    color: white;
+    height: 80vh;
+}
+
+#tododepeanuts h2{
+    color: #bdb1e6;
+    font-size: 8vw;
+    padding: auto;
+}
+
+#tododepeanuts p{
+    font-size: 4vw;
+}
+
+#tododepeanuts{
+    text-align: center;
+    align-items: center;
+    padding: 80px;
+}
+
+
+#tododepeanuts button{
+    font-size: 5vw;
+}
+
+footer{
+    background-color: #7a7294;
+    align-items: center;
+    justify-content: end;
+}
+
+footer .container{
+    background-color: #7a7294;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+footer h2{
+    background-color: #7a7294;
+    text-align: center;
+    justify-content: end;
+    color: #332d42;
+    padding-bottom: 2px;
+    padding-top: 12px;
+}
+
+footer p{
+    margin: 0;
+    padding: 8px 5px;
+    color: #3a334d;
+    padding-top: 1px;
+}
+
+footer .contacto{
+    color: #4a425e;
+    text-align: justify;
+    align-items: center;
+}
+
+footer .otro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #70668a;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    
+    header .nav{
+        padding-bottom: 0;
+        align-items: center;
+        padding-right: 10px;
+    }
+    
+    header a{
+        align-items: right;
+    }
+
+    #Somos-Snoopyland .container{ 
+        justify-content: space-evenly;
+        display: flex;
+
+    }
+
+    #Somos-Snoopyland .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+    }
+
+    #somos-snoopyland h2{
+        margin-top: 0;
+    }
+
+    #Somos-Snoopyland .img-container{
+        background-image: url("originaldd.png");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+
+    }
+
+    .personajes h3{
+        font-size: 25px;
+    }
+
+    #seccion-peanuts .personajes{
+        padding: 0px 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+        gap: 20px;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .personajes > .carta:nth-child(13){
+        grid-column: 2 / 3; /* Centra si está sola en la fila */
+
+    }
+
+
+    #seccion-peanuts .carta{
+        width: 100%;
+        max-width: 300px;
+        box-sizing: border-box;
+        color: rgb(255, 255, 255);
+        box-shadow: #050308;
+        text-shadow: #050308;
+    }
+
+    #seccion-peanuts p{
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    #seccion-peanuts h3{
+        margin-top: 0;
+    }
+
+    #seccion-peanuts .carta{
+        padding: 45px;
+        box-shadow: 2px 2px 18px rgba(5, 5, 20, 0.671);
+    }
+
+    #sabiasque{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/beta.lagenda/styles/image1000x1000/s3/programacion/charliesnoopy.png?itok=9nXA4L0j");
+        background-repeat: no-repeat;
+        background-size: 250px;
+        background-position:calc(100vw - 370px) 260px;
+    }
+
+    #sabiasque .container{
+        text-align: initial;
+    }
+
+    #sabiasque h2{
+        text-align: center;
+        font-size: 45px;
+    }
+
+    #sabiasque ul{
+        margin-left: 30px;
+
+    }
+
+    #sabiasque li{
+        text-align: initial;
+    }
+
+    #tododepeanuts h2{
+        font-size: 3.5em;
+    }
+
+    #tododepeanuts p{
+        font-size: 1.3em;
+    }
+
+    #tododepeanuts button{
+        font-size: 2em;
+    }
+
+    @media (min-width:1200px){
+        #sabiasque{
+            background-position-x: calc(100vw - 550px);
+        }
+    }
+
+    footer .container{
+    justify-content: flex-end;    
+    }
+
+}
