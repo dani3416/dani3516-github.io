@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <link rel="stylesheet" href="programas.css">
+    <link rel="icon" type="image/icono" href="Snoopy.webp">
+    <title>Snoopyland</title>
+<body>
+    
+ <header>
+        <div class="container">
+             <p class="logo">
+                    <img src="Snoopy.webp" alt="iconosnoopy" class="logoicon">Snoopyland
+            </p>
+            <nav>
+            <button id="toggle-mode">
+            <img src="https://cdn-icons-png.flaticon.com/128/606/606807.png" alt="Luna" width="23" height="23">
+            </button>
+
+                <a href="Snoopy.html#Somos-Snoopyland">Quienes somos</a>
+                <a href="Snoopy.html#sabiasque">¿Sabías que?</a>
+                <a href="Peanuts.html">Peanuts</a>
+                <a href="programas.html">Programas</a>
+
+            </nav>
+        </div>
+    </header>
+
+
+<footer>
+        <h2>Contacto</h2>
+
+        <section id="contaacto">
+        <div class="footer-container">
+    <div class="columna">
+        <p>Correo: contacto@snoopyland.com</p>
+        <p>Teléfono: +57 325 456 9032</p>
+        <p>Horarios: 8:00 a.m - 4:00 p.m</p>
+    </div>
+
+     <div class="columna">
+            <ul>
+                <li><a href="Snoopy.html">Inicio</a></li>
+                <li><a href="Snoopy.html#Somos-Snoopyland">Acerca de nosotros</a></li>
+                <li><a href="programas.html">Servicios/Productos</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+            </ul>
+        </div>
+
+        <div class="columnaredes">
+            <a href="https://www.instagram.com/snoopygrams/" target="_blank"><img src="insta oscuro.png" alt="Instagram"></a>
+            <a href="https://web.facebook.com/Snoopy?locale=es_LA" target="_blank"><img src="facebook oscuro.png" alt="Facebook"></a>
+        </div>
+        </div> 
+
+    <div class="copyright">
+        <p>&copy; SnoopyLand 2025 <br>Todos los derechos reservados</p>
+    </div>
+    </section>
+
+</footer>
+
+<script>
+  const btn = document.getElementById("toggle-mode");
+
+  btn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+      btn.innerHTML = `<img src="https://cdn-icons-png.flaticon.com/128/606/606795.png" alt="Sol" width="24" height="24">`;
+    } else {
+      btn.innerHTML = `<img src="https://cdn-icons-png.flaticon.com/128/606/606807.png" alt="Luna" width="23" height="23">`;
+    }
+  });
+  </script>
+
+</body>
+</html>
