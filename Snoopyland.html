@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,
     initial-scale=1.0">
-    <link rel="stylesheet" href="Snoopyland.css">
+    <link rel="stylesheet" href="Snoopy.css">
     <link rel="icon" type="image/icono" href="Snoopy.webp">
     <title>Snoopyland</title>
 </head>
@@ -84,13 +84,20 @@
         </div>
 
         <div class="columnaredes">
-            <a href="https://www.instagram.com/snoopygrams/" target="_blank"><img src="insta oscuro.png" alt="Instagram"></a>
-            <a href="https://web.facebook.com/Snoopy?locale=es_LA" target="_blank"><img src="facebook oscuro.png" alt="Facebook"></a>
+            <!-- Íconos con enlaces -->
+            <a href="https://www.instagram.com/snoopygrams/">
+            <img id="Instagram" src="instaoscuro.png" alt="Instagram">
+            </a>
+
+            <a href="https://web.facebook.com/Snoopy?locale=es_LA">
+            <img id="Facebook" src="facebookoscuro.png" alt="Facebook">
+            </a>
+            
         </div>
         </div> 
 
     <div class="copyright">
-        <p>&copy; SnoopyLand 2025 <br>Todos los derechos reservados</p>
+        <p>&copy; SnoopyLand 2025. Todos los derechos reservados</p>
     </div>
     </section>
 
@@ -103,14 +110,34 @@
     document.body.classList.toggle("dark-mode");
 
     if (document.body.classList.contains("dark-mode")) {
-      btn.innerHTML = `<img src="https://cdn-icons-png.flaticon.com/128/606/606795.png" alt="Sol" width="24" height="24">`;
+      btn.innerHTML = `<img src="https://cdn-user-icons.flaticon.com/165359/165359927/1755546167479.svg?token=exp=1755547067~hmac=181c214bc38f682a77bfc0dc8dca7c87" alt="Sol" width="24" height="24">`;
     } else {
       btn.innerHTML = `<img src="https://cdn-icons-png.flaticon.com/128/606/606807.png" alt="Luna" width="23" height="23">`;
     }
   });
+
   </script>
+
+    <script>
+    const toggleDark = document.getElementById("dark-toggle");
+    const Instagram = document.getElementById("Instagram");
+    const Facebook = document.getElementById("Facebook");
+
+    toggleDark.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+
+        if (document.body.classList.contains("dark-mode")) {
+        // Activa versión clara
+        Instagram.src = "instaoscuro.png";
+        Facebook.src = "facebookoscuro.png";
+        } else {
+        // Vuelve a la versión oscura
+        Instagram.src = "instaclaro.png";
+        Facebook.src = "facebookclaro.png";
+        }
+    });
+    </script>
 
 
 </body>
 </html>
-
