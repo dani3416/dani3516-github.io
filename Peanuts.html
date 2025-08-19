@@ -20,121 +20,218 @@
             <button id="toggle-mode">
             <img src="https://cdn-icons-png.flaticon.com/128/606/606807.png" alt="Luna" width="23" height="23">
             </button>
-            
-                <a href="Snoopyland.html#Somos-Snoopyland">Quienes somos</a>
-                <a href="Snoopyland.html#sabiasque">¿Sabías que?</a>
+
+                <a href="Snoopy.html#Somos-Snoopyland">Quienes somos</a>
+                <a href="Snoopy.html#sabiasque">¿Sabías que?</a>
                 <a href="Peanuts.html">Peanuts</a>
                 <a href="programas.html">Programas</a>
 
             </nav>
         </div>
     </header>
+    
 
-
-     <section id="seccion-peanuts">
-         <div class="container">
-            <h2>¡Conoce a los Peanuts!</h2>
-
-        <div class="personajes">
-            <div class="carta">
-            <h3>Snoopy</h3>
-         <form action="#">
-          <button>Saber más</button>
-          </form>
-
-         </div>
-            
-             <div class="carta">
-                <h3>Woodstock</h3>
-                <form action="#">
-          <button>Saber más</button>
-          </form>
-
-          </div>
-
-             <div class="carta">
-             <h3>Charlie Brown</h3>
-             <form action="#">
-          <button>Saber más</button>
-          </form>
-
-          </div>
-
-          <div class="carta">
-             <h3>Lucy</h3>
-             <form action="#">
-          <button>Saber más</button>
-          </form>
-
-          </div>
-          
-          <div class="carta">
-             <h3>Linus</h3>
-             <form action="#">
-          <button>Saber más</button>
-          </form>
-          
-          </div>
-
-          <div class="carta">
-             <h3>Sally</h3>
-             <form action="#">
-          <button>Saber más</button>
-          </form>
-
-          </div>
-
-         <div class="carta">
-             <h3>Peppermint Patty</h3>
-             <form action="#">
-          <button>Saber más</button>
-          </form>
-          
-          </div>
-          
-         <div class="carta">
-             <h3>Marcie</h3>
-             <form action="#">
-          <button>Saber más</button>
-          </form>
-
-          </div>
-
-         <div class="carta">
-             <h3>Franklin</h3>
-             <form action="#">
-          <button>Saber más</button>
-          </form>
-
-          </div>
-
-         <div class="carta">
-             <h3>PigPen</h3>
-             <form action="#">
-          <button>Saber más</button>
-          </form>
-
-          </div>
-
-          <div class="carta">
-             <h3>Schroeder</h3>
-             <form action="#">
-          <button>Saber más</button>
-          </form>
-
-          </div>
-
-         <div class="carta">
-             <h3>Rerun</h3>
-
-             <form action="#">
-          <button>Saber más</button>
-          </form>
-
-          </div>
-
-         </div>
+    <div class="ANIVERSARIO">
+        <div class="todito">
+        <h2>Sobre Peanuts</h2>
+        <div class="containerani">
+        <p>El 2 de octubre de 1950, Charles M. Schulz presentó una nueva tira cómica con un héroe inverosímil de cabeza redonda, «el buen Charlie Brown». Así nació PEANUTS. En 2025, Peanuts Worldwide celebra su aniversario 75.º, el grupo de personajes que se han unido al elenco a lo largo del camino: Linus y su malhumorada hermana mayor Lucy; Schroeder, el pianista; Sally; Franklin; sin olvidar a Peppermint Patty, Marcie, Pigpen (y su famosa nube de polvo) y muchos más. Pero nadie ha acaparado tanto la atención como Snoopy, el beagle más cool del planeta.</p>
         </div>
+        </div>
+        
+        <a href="#PEANUTS" class="flecha-contenedor">
+            <span class="flecha">&#x2193;</span>
+            <p>Conoce los personajes</p>
+        </a>
+
+    </div>
+
+        <div class="musica">
+        <audio id="bg-audio" loop preload="auto">
+            <source src="Peanuts-Theme - dinostrunk.mp3" type="audio/mpeg">
+            <source src="Peanuts (2015) (OST) - Peanuts Main Theme - Original Movie Soundtracks.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio.
+        </audio>
+
+        <!-- Controles personalizados (siempre visibles) -->
+        <div class="music-controls visible" id="music-controls" role="region" aria-label="Controles de audio">
+            <button id="btn-playpause" class="mc-btn" aria-label="Pausar o reproducir">⏸</button>
+            <button id="btn-mute" class="mc-btn" aria-label="Silenciar o activar sonido">🔊</button>
+            <input id="vol-range" class="mc-vol" type="range" min="0" max="1" step="0.01" value="1" aria-label="Volumen">
+        </div>
+        </div>
+
+
+    <section id="PEANUTS">
+    <div class="carousel-container" id="carousel1">
+        <h2>¡Presentamos a los Peanuts!</h2>
+        <button class="carousel-btn prev1">&#10094;</button>
+        
+        <div class="carousel-track-wrapper1">
+            <div class="carousel-track1" id="carousel1">
+
+            <div class="item">
+
+                <div class="img-info-wrapper">
+                <img src="cb-color.avif" alt="Charlie Brown" />
+                <div class="info-overlay">
+                    <h3>Charlie Brown</h3>
+                    <p>Soy yo... el chico al que nunca le sale bien patear el balón. Pero aún así, sigo intentándolo todos los días.</p>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="item">
+
+                <div class="img-info-wrapper">
+                <img src="sn-color2.jpg" alt="Snoopy" />
+                <div class="info-overlay">
+                    <h3>Snoopy</h3>
+                <p>Dicen que soy un perro, pero yo prefiero verme como un as de la aviación y un gran escritor. La vida en el techo de mi casita es genial.</p>        
+                </div>
+                </div>
+
+            </div>
+
+                <div class="item">
+                <div class="img-info-wrapper">
+                <img src="photo-output_10.jpg" alt="Woodstock" />
+                <div class="info-overlay">
+                    <h3>Woodstock</h3>
+                    <p>Pequeño, amarillo y siempre junto a Snoopy. Nadie me entiende muy bien, excepto él... y eso es suficiente.</p>
+                </div>
+                </div>
+          
+            </div>
+
+            <div class="item">
+          
+                <div class="img-info-wrapper">
+                <img src="lu-color.avif" alt="Lucy" />
+                <div class="info-overlay">
+                    <h3>Lucy</h3>
+                <p>Siempre tengo un consejo listo en mi consultorio por solo cinco centavos. ¿Qué harías sin alguien tan lista como yo?</p>        
+                </div>
+                </div>
+          
+            </div>
+
+                <div class="item">
+         
+                <div class="img-info-wrapper">
+                <img src="li-color.avif" alt="linus" />
+                <div class="info-overlay">
+                    <h3>Linus</h3>
+                <p>No me separo de mi manta. Pero oye, también soy el que mantiene la calma cuando todos pierden la cabeza.</p>        
+                </div>
+                </div>
+         
+            </div>
+
+                <div class="item">
+
+                <div class="img-info-wrapper">
+                <img src="sa-color.avif" alt="Sally" />
+                <div class="info-overlay">
+                    <h3>Sally</h3>
+                <p>Soy la hermanita de Charlie Brown. Lo quiero mucho, aunque a veces me desespere con sus cosas.</p>        
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <button class="carousel-btn next1">&#10095;</button>
+    </div>
+
+
+    
+        <div class="carousel-container" id="carousel2">
+            <h3>Más personajes</h3>
+        <button class="carousel-btn prev2">&#10094;</button>
+        
+        <div class="carousel-track-wrapper2">
+            <div class="carousel-track2" id="carousel2">
+
+            <div class="item">
+
+                <div class="img-info-wrapper">
+                <img src="pp-color.jpg" alt="Peppermint Patty" />
+                <div class="info-overlay">
+                    <h3>Peppermint Patty</h3>
+                    <p>Prefiero estar en el campo de béisbol que en la escuela. A veces me confundo, pero siempre me divierto.</p>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="item">
+
+                <div class="img-info-wrapper">
+                <img src="ma-color.avif" alt="Marcie" />
+                <div class="info-overlay">
+                    <h3>Marcie</h3>
+                <p>Siempre acompaño a Patty, aunque ella me llame “sir” por alguna razón. Me gusta estudiar y observar en silencio.</p>        
+                </div>
+                </div>
+
+            </div>
+
+                <div class="item">
+
+                <div class="img-info-wrapper">
+                <img src="fk-color.avif" alt="Franklin" />
+                <div class="info-overlay">
+                    <h3>Franklin</h3>
+                    <p>Soy tranquilo, me gusta pasar tiempo con mis amigos y jugar a la pelota. Con ellos, todo es más divertido.</p>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="item">
+
+                <div class="img-info-wrapper">
+                <img src="ot-color.avif" alt="PigPen" />
+                <div class="info-overlay">
+                    <h3>PigPen</h3>
+                <p>Puede que siempre tenga polvo alrededor, pero eso no me impide disfrutar la vida. Es mi estilo, supongo.</p>        
+                </div>
+                </div>
+
+            </div>
+
+                <div class="item">
+
+                <div class="img-info-wrapper">
+                <img src="sc-color_1.avif" alt="Schroeder" />
+                <div class="info-overlay">
+                    <h3>Schroeder</h3>
+                <p>El piano es mi mundo. Cuando toco Beethoven, nada más existe a mi alrededor.</p>        
+                </div>
+                </div>
+
+            </div>
+
+                <div class="item">
+
+                <div class="img-info-wrapper">
+                <img src="Rerun - bw.avif" alt="Rerun" />
+                <div class="info-overlay">
+                    <h3>Rerun</h3>
+                <p>Soy el más pequeño, pero tengo mis propias ideas. A veces sorprendo a todos con lo que pienso.</p>        
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <button class="carousel-btn next2">&#10095;</button>
+    </div>
+    </section>
+
      </section>
     <section id="tododepeanuts">
     <h2>Visita la página oficial de Peanuts</h2>
@@ -145,7 +242,7 @@
       </form>
 </section>
 
-<footer>
+    <footer>
         <h2>Contacto</h2>
 
         <section id="contaacto">
@@ -166,13 +263,20 @@
         </div>
 
         <div class="columnaredes">
-            <a href="https://www.instagram.com/snoopygrams/" target="_blank"><img src="insta oscuro.png" alt="Instagram"></a>
-            <a href="https://web.facebook.com/Snoopy?locale=es_LA" target="_blank"><img src="facebook oscuro.png" alt="Facebook"></a>
+            <!-- Íconos con enlaces -->
+            <a href="https://www.instagram.com/snoopygrams/">
+            <img id="Instagram" src="instaoscuro.png" alt="Instagram">
+            </a>
+
+            <a href="https://web.facebook.com/Snoopy?locale=es_LA">
+            <img id="Facebook" src="facebookoscuro.png" alt="Facebook">
+            </a>
+            
         </div>
         </div> 
 
     <div class="copyright">
-        <p>&copy; SnoopyLand 2025 <br>Todos los derechos reservados</p>
+        <p>&copy; SnoopyLand 2025. Todos los derechos reservados</p>
     </div>
     </section>
 
@@ -185,13 +289,271 @@
     document.body.classList.toggle("dark-mode");
 
     if (document.body.classList.contains("dark-mode")) {
-      btn.innerHTML = `<img src="https://cdn-icons-png.flaticon.com/128/606/606795.png" alt="Sol" width="24" height="24">`;
+      btn.innerHTML = `<img src="https://cdn-user-icons.flaticon.com/165359/165359927/1755546167479.svg?token=exp=1755547067~hmac=181c214bc38f682a77bfc0dc8dca7c87" alt="Sol" width="24" height="24">`;
     } else {
       btn.innerHTML = `<img src="https://cdn-icons-png.flaticon.com/128/606/606807.png" alt="Luna" width="23" height="23">`;
     }
   });
+
   </script>
 
-</body>
+    <script>
+    const toggleDark = document.getElementById("dark-toggle");
+    const Instagram = document.getElementById("Instagram");
+    const Facebook = document.getElementById("Facebook");
 
+    toggleDark.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+
+        if (document.body.classList.contains("dark-mode")) {
+        // Activa versión clara
+        Instagram.src = "instaoscuro.png";
+        Facebook.src = "facebookoscuro.png";
+        } else {
+        // Vuelve a la versión oscura
+        Instagram.src = "instaclaro.png";
+        Facebook.src = "facebookclaro.png";
+        }
+    });
+    </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const track = document.querySelector(".carousel-track1");
+  const items = document.querySelectorAll(".carousel-track1 .item");
+  const prevBtn = document.querySelector(".carousel-btn.prev1");
+  const nextBtn = document.querySelector(".carousel-btn.next1");
+
+  const itemsToShow = 3; // cuántos ítems mostrar a la vez
+  let currentIndex = 0;
+
+  function updateCarousel() {
+    const itemWidth = items[0].offsetWidth;
+    track.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+  }
+
+  nextBtn.addEventListener("click", () => {
+    if (currentIndex < items.length - itemsToShow) {
+      currentIndex++;
+      updateCarousel();
+    }
+  });
+
+  prevBtn.addEventListener("click", () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateCarousel();
+    }
+  });
+
+  window.addEventListener("resize", updateCarousel);
+});
+</script>
+
+<script>
+function initCarousel(container){
+  const wrapper1 = container.querySelector('.carousel-track-wrapper1');
+  const prev1 = container.querySelector('.carousel-btnprev1');
+  const next1 = container.querySelector('.carousel-btnnext1');
+
+  const page = () => wrapper.clientWidth; // avanza por "página" visible
+
+  prev?.addEventListener('click', () => {
+    wrapper1.scrollBy({ left: -page(), behavior: 'smooth' });
+  });
+
+  next?.addEventListener('click', () => {
+    wrapper1.scrollBy({ left: page(), behavior: 'smooth' });
+  });
+}
+
+document.querySelectorAll('.carousel-container').forEach(initCarousel);
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const track = document.querySelector(".carousel-track2");
+  const items = document.querySelectorAll(".carousel-track2 .item");
+  const prevBtn = document.querySelector(".carousel-btn.prev2");
+  const nextBtn = document.querySelector(".carousel-btn.next2");
+
+  const itemsToShow = 3; // cuántos ítems mostrar a la vez
+  let currentIndex = 0;
+
+  function updateCarousel() {
+    const itemWidth = items[0].offsetWidth;
+    track.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+  }
+
+  nextBtn.addEventListener("click", () => {
+    if (currentIndex < items.length - itemsToShow) {
+      currentIndex++;
+      updateCarousel();
+    }
+  });
+
+  prevBtn.addEventListener("click", () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateCarousel();
+    }
+  });
+
+  window.addEventListener("resize", updateCarousel);
+});
+</script>
+
+<script>
+function initCarousel(container){
+  const wrapper2 = container.querySelector('.carousel-track-wrapper2');
+  const prev2 = container.querySelector('.carousel-btnprev2');
+  const next2 = container.querySelector('.carousel-btnnext2');
+
+  const page = () => wrapper.clientWidth; // avanza por "página" visible
+
+  prev?.addEventListener('click', () => {
+    wrapper2.scrollBy({ left: -page(), behavior: 'smooth' });
+  });
+
+  next?.addEventListener('click', () => {
+    wrapper2.scrollBy({ left: page(), behavior: 'smooth' });
+  });
+}
+
+document.querySelectorAll('.carousel-container').forEach(initCarousel);
+</script>
+
+<script>
+(function(){
+  const audio = document.getElementById('bg-audio');
+  const btnPlayPause = document.getElementById('btn-playpause');
+  const btnMute = document.getElementById('btn-mute');
+  const volRange = document.getElementById('vol-range');
+
+  // Valores iniciales
+  audio.preload = 'auto';
+  audio.loop = true;
+  audio.volume = 1;
+  audio.muted = true; // arrancamos muted para permitir autoplay en muchos navegadores
+
+  // UI update
+  function updateUI(){
+    btnPlayPause.textContent = audio.paused ? '▶' : '⏸';
+    btnMute.textContent = audio.muted ? '🔇' : '🔊';
+    volRange.value = audio.volume;
+  }
+
+  // fade simple (opcional)
+  function fadeVolume(from,to,duration=400){
+    const start = performance.now();
+    audio.volume = from;
+    function step(now){
+      const t = Math.min(1,(now-start)/duration);
+      audio.volume = from + (to-from)*t;
+      if(t<1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  // Intento de autoplay al cargar
+  async function tryAutoPlay(){
+    try {
+      await audio.play(); // esto reproduce, pero está muted => suele permitirse
+      // Intentamos quitar mute si el usuario ya lo permitió antes
+      if(localStorage.getItem('music-allowed') === '1'){
+        try { audio.muted = false; fadeVolume(0,1,600); localStorage.setItem('music-allowed','1'); }
+        catch(e){ audio.muted = true; }
+      } else {
+        // breve intento de unmute automático: si falla, se quedará en mute y controles pueden usarlo
+        try {
+          audio.muted = false;
+          setTimeout(()=>{
+            if(audio.paused || audio.muted){
+              audio.muted = true;
+            } else {
+              localStorage.setItem('music-allowed','1');
+            }
+          }, 250);
+        } catch(e){
+          audio.muted = true;
+        }
+      }
+      updateUI();
+    } catch(err){
+      // autoplay bloqueado: queda en muted y el usuario podrá tocar controles
+      console.warn('Autoplay blocked o falló:', err);
+      audio.muted = true;
+      updateUI();
+    }
+  }
+
+  // Botón play/pause
+  btnPlayPause.addEventListener('click', async () => {
+    try {
+      if(audio.paused){
+        await audio.play();
+        // al pedir play, intentamos quitar mute para que suene
+        try { audio.muted = false; localStorage.setItem('music-allowed','1'); }
+        catch(e){ /* puede fallar */ }
+      } else {
+        audio.pause();
+      }
+    } catch(e) {
+      console.warn('Play/pause error', e);
+    }
+    updateUI();
+  });
+
+  // Botón mute
+  btnMute.addEventListener('click', () => {
+    if(audio.muted){
+      // unmute con fade
+      audio.muted = false;
+      fadeVolume(0,1,500);
+      localStorage.setItem('music-allowed','1');
+    } else {
+      // mute con fade
+      fadeVolume(audio.volume,0,300);
+      setTimeout(()=>{ audio.muted = true; audio.volume = 1; updateUI(); }, 320);
+    }
+    updateUI();
+  });
+
+  // Slider volumen
+  volRange.addEventListener('input', (e)=>{
+    const v = parseFloat(e.target.value);
+    audio.volume = v;
+    audio.muted = v === 0;
+    if(!audio.muted) localStorage.setItem('music-allowed','1');
+    updateUI();
+  });
+
+  // Primer gesto del usuario: intenta desmutear si ya estaba reproduciéndose y silenciado
+  function firstUserGesture(){
+    if(!audio.paused && audio.muted){
+      try { audio.muted = false; fadeVolume(0,1,500); localStorage.setItem('music-allowed','1'); }
+      catch(e){ /* ignore */ }
+    }
+    window.removeEventListener('click', firstUserGesture);
+    window.removeEventListener('touchstart', firstUserGesture);
+    window.removeEventListener('keydown', firstUserGesture);
+    updateUI();
+  }
+  window.addEventListener('click', firstUserGesture, { once: true });
+  window.addEventListener('touchstart', firstUserGesture, { once: true });
+  window.addEventListener('keydown', firstUserGesture, { once: true });
+
+  // sincronizar UI con eventos nativos
+  audio.addEventListener('play', updateUI);
+  audio.addEventListener('pause', updateUI);
+  audio.addEventListener('volumechange', updateUI);
+
+  // Ejecutar intento de autoplay en load
+  window.addEventListener('load', tryAutoPlay);
+
+})();
+</script>
+
+
+</body>
 </html>
